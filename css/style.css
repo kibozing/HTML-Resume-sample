@@ -1,0 +1,85 @@
+.outer-box {
+  width: 1120px;
+  margin: 0 auto;
+  background-color:  black;
+}
+
+.clearfix {
+  overflow:  auto;
+}
+
+.content {
+  width: 690px;
+  padding:  0 50px 40px;
+  float:  left;
+  background-color:  white;
+  position: relative;
+}
+
+.sidebar {
+  width: 330px;
+  height: 100px;
+  float:  left;
+  color:  white;
+  padding-top: 30px;
+}
+
+.pic {
+  width: 120px;
+  border-radius: 100%;
+  margin: 0 auto;
+  display:  block;
+}
+
+.contact-info {
+  position: absolute;
+  top:  0;
+  right: 50px;
+}
+
+div {
+  display: block;
+}
+
+.institution {
+  position: relative;
+}
+
+.time-period {
+  position: absolute;
+  color: gray;
+  right: 50px;
+  font-style: italic;
+  right: 0;
+  top: 0;
+  }
+
+h1 {
+  font-size: 40px;
+  margin-top: 10px;
+}
+
+h3 {
+  font-style: italic;
+}
+
+ul {
+  list-style: circle;
+}
+
+li {
+  padding-top:5px;
+}
+
+li:first-child {
+  padding-top: 0px;
+}
+
+.skills {
+  margin-left: 5;
+}
+
+.objective {
+  background-color: #E6E6E6;
+  padding: 20px;
+}
