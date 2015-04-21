@@ -9,7 +9,7 @@
 }
 
 .content {
-  width: 690px;
+  width: 720px;
   padding:  0 50px 40px;
   float:  left;
   background-color:  white;
@@ -17,11 +17,12 @@
 }
 
 .sidebar {
-  width: 330px;
+  width: 270px;
   height: 100px;
   float:  left;
   color:  white;
   padding-top: 30px;
+  padding-right: 30px;
 }
 
 .pic {
@@ -32,9 +33,9 @@
 }
 
 .contact-info {
-  position: absolute;
-  top:  0;
-  right: 50px;
+  padding-top: 5px;
+  padding-bottom: 50px;
+  text-align: center;
 }
 
 div {
@@ -43,24 +44,31 @@ div {
 
 .institution {
   position: relative;
+  font-size: 90%;
 }
 
 .time-period {
   position: absolute;
-  color: gray;
+  color: #D8D8D8;
   right: 50px;
-  font-style: italic;
-  right: 0;
+  font-family: courier;
   top: 0;
+  font-size: 80%;
   }
 
 h1 {
-  font-size: 40px;
-  margin-top: 10px;
+  font-size: 60px;
+  margin-top: 20px;
+  text-align: center;
+  padding-bottom: -90px;
+}
+
+h2 {
+  font-size: 120%;
 }
 
 h3 {
-  font-style: italic;
+  margin-left: 20px;
 }
 
 ul {
@@ -69,6 +77,8 @@ ul {
 
 li {
   padding-top:5px;
+  font-family: courier;
+  font-size: 80%;
 }
 
 li:first-child {
@@ -76,10 +86,36 @@ li:first-child {
 }
 
 .skills {
-  margin-left: 5;
+  margin-left: 5px;
 }
 
-.objective {
-  background-color: #E6E6E6;
-  padding: 20px;
+.skills li {
+  list-style: square;
+  margin-left: -20px;
+  font-family: courier;
+  font-size: 80%;
 }
+
+.content .objective {
+  margin-left: 20px;
+  font-family: Lucida;
+  font-size: 85%;
+  padding-bottom: 50px;
+}
+
+.outer-box{
+  background: rgb(34,89,152); /* Old browsers */
+  background: -moz-linear-gradient(top,  rgba(34,89,152,1) 0%, rgba(125,185,232,1) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(34,89,152,1)), color-stop(100%,rgba(125,185,232,1))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  rgba(34,89,152,1) 0%,rgba(125,185,232,1) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  rgba(34,89,152,1) 0%,rgba(125,185,232,1) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  rgba(34,89,152,1) 0%,rgba(125,185,232,1) 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  rgba(34,89,152,1) 0%,rgba(125,185,232,1) 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#225998', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
+}
+
+.sidebar .skills {
+  padding-left: 20px;
+}
+
+
