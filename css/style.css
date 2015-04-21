@@ -17,11 +17,12 @@
 }
 
 .sidebar {
-  width: 300px;
+  width: 270px;
   height: 100px;
   float:  left;
   color:  white;
   padding-top: 30px;
+  padding-right: 30px;
 }
 
 .pic {
@@ -51,7 +52,6 @@ div {
   color: #D8D8D8;
   right: 50px;
   font-family: courier;
-  right: 0;
   top: 0;
   font-size: 80%;
   }
@@ -98,7 +98,7 @@ li:first-child {
 
 .content .objective {
   margin-left: 20px;
-  font-family: arial black;
+  font-family: Lucida;
   font-size: 85%;
   padding-bottom: 50px;
 }
@@ -119,23 +119,3 @@ li:first-child {
 }
 
 
-.left-col {
-    float: left;
-    width:25%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.center-col {
-    float: left;
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.right-col {
-    float: left;
-    width: 25%;
-    margin-left: auto;
-    margin-right: auto;
-}
